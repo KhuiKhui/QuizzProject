@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Quiz",
+    "slug": "My-Quiz-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/quiz_icon_1024.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/quiz_icon_1024.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/quiz_icon_1024.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thanhnguyen79.MyQuizapp"
+    },
+    "web": {
+      "favicon": "./assets/quiz_icon_1024.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5db60b66-1b99-4743-8635-a605eb771a8d"
+      }
+    }
+  }
+}
